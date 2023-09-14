@@ -20,9 +20,6 @@ import uuid
 import socket
 import getpass
 import ssl
-import ctypes
-
-ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
 
 
 
